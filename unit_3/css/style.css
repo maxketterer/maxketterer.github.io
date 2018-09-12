@@ -1,0 +1,14 @@
+body {
+	text-align: center;
+	color: #000058;
+	font-family: Bookman;
+}
+h3 {
+	font-style: italic;
+}
+hr {
+	width: 300px;
+}
+p {
+	font-size: 22px;
+}
