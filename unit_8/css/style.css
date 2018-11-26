@@ -21,7 +21,7 @@ body {
 }
 
 header {
-	background-color: #blue;
+	background: #blue;
 /*	border: 1px black solid;*/
 	padding: 5px;
 	font-color: #fff;
@@ -52,7 +52,7 @@ nav a:visited {
 }
 
 nav a:hover {
-	color: orange;
+	color: darkred;
 	text-decoration: underline;
 }
 
@@ -71,7 +71,7 @@ article {
 aside {
 	background-color: #FFC675;
 	border: 1px black solid;
-	padding: 20px;
+/*	padding: 20px;*/
 }
 
 img {
@@ -185,6 +185,24 @@ h3 {
 	width: 50%;
 }
 
+#left_press {
+	border: 1px black solid;
+	float: left;
+	width: 50%;
+	background: #fff;
+	text-align: left;
+	text-transform: uppercase;
+	font-family: 'oswald', sans-serif;
+	color: #15298e;
+}
+
+#right_press {
+	background-color: #E55B88;
+	border: 1px black solid;
+	float: right;
+	width: 50%;
+}
+
 #left_contact {
 	border: 1px black solid;
 	float: left;
@@ -207,7 +225,7 @@ h3 {
 footer {
 	background-color: #FF957E;
 	border: 1px black solid;
-	padding: 20px;
+/*	padding: 20px;*/
 	text-align: center;
 	text-transform: uppercase;
 	font-family: 'oswald', sans-serif;
